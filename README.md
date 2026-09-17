@@ -2,6 +2,8 @@
 
 Минимальный веб-клиент для переписки с пользователями мессенджера [MAX](https://max.ru) через [GREEN-API](https://green-api.com/max). Интерфейс похож на [web.max.ru](https://web.max.ru): слева список чатов, справа переписка.
 
+**Демо:** https://green-api-max-chat.netlify.app
+
 ## Что умеет приложение
 
 1. Вход по параметрам инстанса GREEN-API: `idInstance` и `apiTokenInstance`.
@@ -23,6 +25,8 @@
 - Обычный CSS со светлой и тёмной темой (по системной настройке) и адаптивной вёрсткой
 
 Backend не нужен: GREEN-API разрешает CORS, и браузер обращается к API напрямую.
+
+Для деплоя на Netlify в репозитории есть `netlify.toml`: команда `npm run build`, папка `dist`, Node 22.
 
 ## Установка и запуск
 
